@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import PASSENGER, MAIN, Booking_Model
+from .models import User, Bus, Booking
 
-admin.site.register(PASSENGER)
-admin.site.register(MAIN)
-admin.site.register(Booking_Model)
+admin.site.register(User)
+admin.site.register(Bus)
+admin.site.register(Booking)
